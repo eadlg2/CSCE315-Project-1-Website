@@ -29,7 +29,48 @@ nav a:hover {
     background-color: rgb(222, 222, 222);
 }
 
-h2 {
-    text-align: center;
+.project {
+    float: left;
+    width: 30%;
     padding: 20px;
+    font-size: larger;
+    color: white;
+}
+
+.project img {
+    width: 12.5%;
+    height: 12.5%;
+    vertical-align: middle;
+}
+
+.portfolio {
+    background-color: rgb(60, 82, 145);
+}
+
+.portfolio:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.link {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    font-size: larger;
+    color: white;
+}
+
+.links {
+    background-color: rgb(60, 82, 145);
+}
+
+.links:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: white;
 }
