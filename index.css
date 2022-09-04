@@ -41,14 +41,32 @@ nav a:hover {
     padding-right: 20px;
 }
 
+h2 {
+    font-size: xx-large;
+}
+
+p {
+    font-size: x-large;
+}
+
 .portrait {
     float: left;
 }
 
 .portrait img {
     width: 480px;
-    height: auto;
+    height: 600px;
     object-fit: cover;
     object-position: 100% 10%;
 }
 
+a {
+    text-decoration: none;
+}
+
+a img {
+    max-width: 100%;
+    width: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
