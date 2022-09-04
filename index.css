@@ -31,6 +31,7 @@ nav a:hover {
 
 .content {
     display: flex;
+    height: 600px;
 }
 
 .description {
