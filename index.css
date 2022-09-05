@@ -49,6 +49,11 @@ p {
     font-size: x-large;
 }
 
+p a {
+    color: white;
+    text-decoration: underline;
+}
+
 .portrait {
     float: left;
 }
