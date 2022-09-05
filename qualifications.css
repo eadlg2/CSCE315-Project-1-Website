@@ -29,7 +29,24 @@ nav a:hover {
     background-color: rgb(222, 222, 222);
 }
 
-h2 {
-    text-align: center;
+.item {
+    float: left;
+    max-width: 45%;
     padding: 20px;
+    font-size: larger;
+    color: white;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+.content {
+    background-color: rgb(60, 82, 145);
+}
+
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
 }
