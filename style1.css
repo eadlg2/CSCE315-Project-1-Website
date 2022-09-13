@@ -1,0 +1,234 @@
+body {
+    font-family: Assistant;
+    margin: 0px;
+}
+
+/* header */
+
+.contact1 {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+h1 {
+    background-color: rgb(32, 42, 68);
+    padding: 30px;
+    margin: 0px;
+    color: white;
+}
+
+nav {
+    list-style-type: none;
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+nav button {
+    display: inline-block;
+    padding: 14px 16px;
+    text-align: center;
+    border: none;
+    font-family: Assistant;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+nav a:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+nav button:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+/* index */
+
+.indexContent {
+    display: flex;
+    height: 600px;
+}
+
+.indexDesc {
+    background-color: rgb(60, 82, 145);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.indexDesc h2 {
+    font-size: xx-large;
+}
+
+.indexDesc p {
+    font-size: x-large;
+}
+
+.indexDesc p a {
+    color: white;
+    text-decoration: underline;
+}
+
+.portrait {
+    float: left;
+}
+
+.portrait img {
+    width: 480px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 100% 10%;
+}
+
+.contact2 a {
+    text-decoration: none;
+}
+
+.contact2 a img {
+    max-width: 100%;
+    width: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* portfolio */
+
+.project {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    font-size: larger;
+    color: white;
+}
+
+.project img {
+    width: 12.5%;
+    height: 12.5%;
+    vertical-align: middle;
+}
+
+.p1Image {
+    display: none;
+}
+
+.p2Image {
+    display: none;
+}
+
+.portfolioContent {
+    background-color: rgb(60, 82, 145);
+}
+
+.portfolioContent:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: white;
+}
+
+/* qualifications */
+
+.item {
+    float: left;
+    max-width: 45%;
+    padding: 20px;
+    font-size: larger;
+    color: white;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+.qualContent {
+    background-color: rgb(60, 82, 145);
+}
+
+.qualContent:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* service */
+
+.serviceItem {
+    float: left;
+    max-width: 100%;
+    padding: 20px;
+    font-size: larger;
+    color: white;
+}
+
+.serviceItem a {
+    color: white;
+}
+
+.serviceContent {
+    background-color: rgb(60, 82, 145);
+}
+
+.serviceContent:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.s1Content {
+    float: left;
+    width: 50%;
+    margin-top: 3%;
+}
+
+.s1Image {
+    float: right;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1Image img {
+    padding: 5%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.s2Content {
+    float: left;
+    width: 50%;
+    margin-top: 3%;
+}
+
+.s2Image {
+    float: right;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2Image img {
+    padding: 5%;
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 50%;
+}

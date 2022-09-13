@@ -2,21 +2,43 @@
 <html>
     <head>
         <title>Evan De la Garza</title>
-        <link rel="stylesheet" href="qualifications.css">
+        <link id="mainStyleSheet" rel="stylesheet" href="style1.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono">
     </head>
 
-    <body>
-        <h1>Evan De la Garza</h1>
+    <body class="qualifications">
+        <div class="header">
+            <div class="contact1">
+                <a href="mailto:eadlg2@tamu.edu">
+                    <img src="./assets/mail.png" alt="Envelope Icon">
+                </a>
+    
+                <a href="https://www.linkedin.com/in/evan-de-la-garza-a717881ba">
+                    <img src="./assets/In-White-96@2x.png" alt="LinkedIn Logo">
+                </a>
+            </div> 
 
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./portfolio.html">Portfolio</a>
-            <a href="./qualifications.html">Qualifications</a>
-            <a href="./service.html">Service</a>
-        </nav>
+            <h1>Evan De la Garza</h1>
 
-        <div class="content">
+            <nav>
+                <button class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </button>
+
+                <div class="navLinks">
+                    <a href="./index.html">Home</a>
+                    <a href="./portfolio.html">Portfolio</a>
+                    <a href="./qualifications.html">Qualifications</a>
+                    <a href="./service.html">Service</a>
+                    <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+                </div>
+            </nav>   
+        </div>
+
+        <div class="qualContent">
             <div class="item">
                 <img src="./assets/Resume.png" alt="Resume">
             </div>
@@ -26,7 +48,7 @@
                     <h2>Technical Skills</h2>
 
                     <p>
-                        Over the years, I have developed many skills that can prove useful in the industry.
+                        Over the years, I have developed many skills that will prove useful in the industry.
                         Throughout my time at Texas A&M, I have been exposed to many different languages. These
                         range from the pure functional language of Haskell to a more high level language like C++.
                         With there being so many programming languages to choose from, it is important to be able 
@@ -38,7 +60,7 @@
                         In addition to programming skills, I have developed many organizational skills as well. 
                         I always try to stay on top of my work in anything I do. I would rather finish my work early
                         and have time to look over it, than wait until the very last minute. In light of this, I have
-                        been able to develop good time management skills that will transfer to the workplace well. I
+                        been able to develop good time management skills that will easily transfer to the workplace. I
                         also work well in a team setting. In a group project, I can be trusted to get my work done
                         in a timely manner and help my team when someone is struggling. Communication plays an important
                         role in a group setting, and through my years of schooling, I have built strong communication
@@ -46,7 +68,7 @@
                     </p>
 
                     <p>
-                        Lastly, I have strong analytical skills. All throughout my life, I have been thinking of unique
+                        Lastly, I have strong analytical skills. All throughout my life, I have been able to develop unique
                         ideas to solve problems. In addition, I pay strong attention to detail in my work. After all, the
                         smallest things can make the biggest difference. Without careful attention to detail, a project can
                         feel unfinished or unpolished. Projects also should be built on good research. In my courses,
@@ -63,17 +85,19 @@
                         One of my main areas of interest is game design and development. Ever since I was a kid, I have always
                         been playing video games. They have brought me endless hours of entertainment and have allowed me to build
                         many skills such as teamwork and communication. I think being able to develop video games would be very 
-                        enjoyable and would love to be able to give others entertainment through video games.
+                        enjoyable, and I would love to be able to give others entertainment through video games.
                     </p>
 
                     <p>
                         Another area of interest for me is artificial intelligence. Every day, our technology is getting smarter
-                        and smarter. While this may be scary at times, it is fascinating to see the ways we have been able to
+                        and smarter. While this may be scary at times, it is fascinating to see the ways in which we have been able to
                         advance society with artificial intelligence. AI is present in so many systems that improve our quality
                         of life, and I would love to be able to learn more about it.
                     </p>
                 </div>
             </div>
         </div>
+
+        <script src="functions.js"></script>
     </body>
 </html>

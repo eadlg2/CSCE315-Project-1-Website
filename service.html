@@ -2,65 +2,101 @@
 <html>
     <head>
         <title>Evan De la Garza</title>
-        <link rel="stylesheet" href="service.css">
+        <link id="mainStyleSheet" rel="stylesheet" href="style1.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono">
     </head>
 
-    <body>
-        <h1>Evan De la Garza</h1>
+    <body class="service">
+        <div class="header">
+            <div class="contact1">
+                <a href="mailto:eadlg2@tamu.edu">
+                    <img src="./assets/mail.png" alt="Envelope Icon">
+                </a>
+    
+                <a href="https://www.linkedin.com/in/evan-de-la-garza-a717881ba">
+                    <img src="./assets/In-White-96@2x.png" alt="LinkedIn Logo">
+                </a>
+            </div> 
 
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./portfolio.html">Portfolio</a>
-            <a href="./qualifications.html">Qualifications</a>
-            <a href="./service.html">Service</a>
-        </nav>
+            <h1>Evan De la Garza</h1>
 
-        <div class="content">
-            <div class="service">
-                <h2>Paris Regional Medical Center</h2>
+            <nav>
+                <button class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </button>
 
-                <p>
-                    In my hometown, the hospital runs a volunteer program for people to help provide
-                    services to patients and hospital staff. This program allows people from the community
-                    to help keep the hospital running smoothly, whether it be helping guide people around 
-                    the facility or helping restock the storage room. While I went to high school, I would
-                    volunteer in this program over the summer. In doing so, I was able to make a difference
-                    in the community and learn more about it too. At the hospital, you are able to meet so
-                    many people from your community and can learn a lot from the people who work with you.
-                    Volunteering at the hospital was an experience that I will never forget, and I would
-                    gladly do it again.
-                </p>
+                <div class="navLinks">
+                    <a href="./index.html">Home</a>
+                    <a href="./portfolio.html">Portfolio</a>
+                    <a href="./qualifications.html">Qualifications</a>
+                    <a href="./service.html">Service</a>
+                    <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+                </div>
+            </nav>   
+        </div>
 
-                <p>
-                    For more information, check out this link: 
-                    <a href="https://www.parisregionalmedical.com/volunteer-auxiliary">
-                        www.parisregionalmedical.com/volunteer-auxiliary
-                    </a>
-                </p>
+        <div class="serviceContent">
+            <div class="serviceItem">
+                <div class="s1Content">
+                    <h2>Paris Regional Medical Center</h2>
+
+                    <p>
+                        In my hometown, the hospital runs a volunteer program for people to help provide
+                        services to patients and hospital staff. It allows members of the community
+                        to help keep the hospital running smoothly, whether it be helping guide people around 
+                        the facility or helping restock the storage room. While I was in high school, I would
+                        volunteer in this program over the summer. In doing so, I was able to make a difference
+                        in the community and learn more about it too. At the hospital, you are able to meet so
+                        many people from your community and can learn a lot from the people who work with you.
+                        Volunteering at the hospital was an experience that I will never forget, and I would
+                        gladly do it again.
+                    </p>
+
+                    <p>
+                        For more information, check out this link: 
+                        <a href="https://www.parisregionalmedical.com/volunteer-auxiliary">
+                            www.parisregionalmedical.com/volunteer-auxiliary
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="s1Image">
+                    <img src="./assets/paris-logo.png" alt="Logo of Paris Regional Medical Center">
+                </div>
             </div>
 
-            <div class="service">
-                <h2>Quest Academy</h2>
+            <div class="serviceItem">
+                <div class="s2Content">
+                    <h2>Quest Academy</h2>
 
-                <p>
-                    Quest Academy is a schooling program in my hometown for kids of all ages. They have many
-                    classes on their roster, ranging from chess to Spanish to even college exam preparation.
-                    This can be a great resource for kids to get extra help when they need it. I have not worked
-                    at Quest yet, but I am interested in helping out. As I have a lot of knowledge in many of 
-                    the subject areas, I could help teach and supervise many classes. In addition, with the skills
-                    that I have learned at Texas A&M, I could possibly help teach a computer science course to get
-                    kids started early. Knowing how to code is a very good skill to have in today's society, and I 
-                    would love to be able to give back to the community with what I have learned. 
-                </p>
+                    <p>
+                        Quest Academy is a schooling program in my hometown for kids of all ages. They have many
+                        classes on their roster, ranging from chess to Spanish to even college exam preparation.
+                        This can be a great resource for kids to get extra help when they need it. I have not worked
+                        at Quest yet, but I am interested in helping out. As I have a lot of knowledge in many of 
+                        the subject areas, I could help teach and supervise many classes. In addition, with the skills
+                        that I have learned at Texas A&M, I could possibly help teach a computer science course to get
+                        kids started early. Knowing how to code is a very good skill to have in today's society, and I 
+                        would love to be able to give back to the community with what I have learned. 
+                    </p>
 
-                <p>
-                    For more information, check out this link: 
-                    <a href="http://www.mylearningquest.com/home.html">
-                        www.mylearningquest.com
-                    </a>
-                </p>
+                    <p>
+                        For more information, check out this link: 
+                        <a href="http://www.mylearningquest.com/home.html">
+                            www.mylearningquest.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="s2Image">
+                    <img src="./assets/quest.png" alt="Quest Logo">
+                </div>
             </div>
         </div>
+
+        <script src="functions.js"></script>
     </body>
 </html>

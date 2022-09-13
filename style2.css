@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto Mono;
+    margin: 0px;
+}
+
+.index {
+    background-color: #266867;
+}
+
+.portfolio {
+    background-color: #F58800;
+}
+
+.qualifications {
+    background-color: #F8BC24;
+}
+
+.service {
+    background-color: #266867;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    background-color: #051821;
+    padding-top: 2px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    color: white;
+    flex-grow: 1;
+}
+
+.hamburger {
+    background-color: #051821;
+    border: none;
+    padding: 18px;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+nav {
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.navLinks {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navLinks a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.navLinks button {
+    display: block;
+    padding: 14px 16px;
+    min-width: 170px;
+    text-align: left;
+    font-family: Roboto Mono;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    background-color: #f9f9f9;
+}
+
+.navLinks a:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+.navLinks button:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+nav:hover .navLinks {
+    display: block;
+}
+
+.contact1 {
+    padding-right: 5px;
+}
+
+.contact1 a {
+    text-decoration: none;
+}
+
+.contact1 a img {
+    max-width: 100%;
+    width: 40px;
+    padding-right: 6px;
+}
+
+/* index */
+
+.contact2 {
+    display: none;
+}
+
+.indexContent {
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+}
+
+.indexContent a {
+    color: white;
+}
+
+.portrait img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 100% 10%;
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indexDesc h2 {
+    text-align: center;   
+}
+
+/* portfolio */
+
+.portfolioContent {
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+}
+
+.portfolioContent h2 img {
+    display: none;
+}
+
+.project {
+    height: 400px;
+}
+
+.project a {
+    color: white;
+}
+
+.project br {
+    display: none;
+}
+
+.project p {
+    margin-top: 7%;
+}
+
+.p1Content {
+    float: left;
+    width: 50%;
+}
+
+.p1Image {
+    float: right;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1Image img {
+    margin-bottom: 10%;
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+}
+
+.p2Content {
+    float: right;
+    width: 50%;
+    margin-top: 3%;
+}
+
+.p2Image {
+    float: left;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p2Image img {
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+}
+
+/* qualifications */
+
+.qualContent {
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #051821;
+}
+
+.item img {
+    display: block;
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    object-position: 100% 10%;
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* service */
+
+.serviceContent {
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+}
+
+.serviceContent a {
+    color: white;
+}
+
+.serviceItem {
+    height: 500px;
+}
+
+.s1Content {
+    float: left;
+    width: 50%;
+    margin-top: 3%;
+}
+
+.s1Image {
+    float: right;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1Image img {
+    padding: 5%;
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 12%;
+}
+
+.s2Content {
+    float: right;
+    width: 50%;
+    margin-top: 3%;
+}
+
+.s2Image {
+    float: left;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2Image img {
+    padding: 5%;
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 50%;
+}
